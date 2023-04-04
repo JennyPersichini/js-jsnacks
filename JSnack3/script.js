@@ -1,7 +1,7 @@
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
 //Il programma stampa la somma di tutti i numeri inseriti.
 
-let number1 = prompt("Inserire un nume");
+/* let number1 = prompt("Inserire un nume");
 let number2 = prompt("Inserire un altro numero");
 let number3 = prompt("Inserire un altro numero");
 let number4 = prompt("Inserire un altro numero");
@@ -31,6 +31,20 @@ let sum = 0;
 
 for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
+}
+
+console.log(sum); */
+
+/*let numbers = [];*/
+let sum = 0;
+
+for (let i = 0; i < 10; i++) {
+
+    let number = prompt('inserisci numero');
+    let num = parseInt(number);
+ //   numbers.push(num);
+
+    sum += num;
 }
 
 console.log(sum);
